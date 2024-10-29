@@ -1,1 +1,33 @@
 /*  your css code here. If applicable */
+table {
+	border: 1px solid black;
+	border-spacing: 1px;
+	border-collapse:collapse;
+	padding: 1px;
+}
+tr td {
+	border: 1px solid black;
+	width:200px;
+}
+#table-2 {
+	width:600px;
+	height:100px;
+}
+#table-3 tr{
+	width:600px;
+	height:50px;
+	padding:5px;
+	align-content:center;
+}
+
+#table-3 tr:nth-child(1){
+	background-color:green;
+}
+#table-3 tr:nth-child(3){
+	background-color:blue;
+}
+img{
+	display:flex;
+	align-content:center;
+	justify-content:center;
+}
