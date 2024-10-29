@@ -18,6 +18,7 @@ tr td {
 	height:50px;
 	padding:5px;
 	align-content:center;
+	text-align:center;
 }
 
 #table-3 tr:nth-child(1){
@@ -25,9 +26,4 @@ tr td {
 }
 #table-3 tr:nth-child(3){
 	background-color:blue;
-}
-img{
-	display:flex;
-	align-content:center;
-	justify-content:center;
 }
